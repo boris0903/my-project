@@ -1,0 +1,265 @@
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.section_fon{
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+    background-size: cover;
+}
+.header_bady{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-top: 29px;
+}
+.main-nav{
+    display: flex;
+    padding-top: 29px;
+}
+.main-nav li{
+    padding-right: 30px;
+    list-style-type: none;
+}
+.main-nav li a{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-family:'Gothic A1',sans-serif;
+}
+.title_1{
+    max-width: 1200px;
+    margin: auto;
+    display:flex;
+}
+.subject{
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 80px;
+    font-family:'Gothic A1', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 229px;
+}
+.subject_1{
+    font-family:'Gothic A1', sans-serif;
+    font-weight: 400;
+    line-height: 44px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 25px;
+}
+.btn{
+    padding: 20px 40px;
+    background: #FC0A7E;
+    border-radius: 3px;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgba(255, 255, 255, 1);
+}
+.btn:hover{
+    background: chocolate;
+    color: black;
+}
+.title_1_2{
+   margin-top: 60px;
+}
+.phone{
+    position: absolute;
+}
+.combine{
+    margin-top: 739px;
+    margin-bottom: 30px;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.background{
+    background-color: #1B1B1B;
+    background-size: cover;
+    width: 100%;
+}
+.title_1_3{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Gothic A1';
+    color: rgba(168, 168, 168, 1);
+    margin-bottom: 30px;
+    padding-top: 100px;
+    text-align: center;
+}
+.title_1_4{
+    text-align: center;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Gothic A1';
+    margin-bottom: 22px;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+.title_1_5{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Gothic A1';
+    color: rgba(168, 168, 168, 1);
+    margin-bottom: 30px;
+    margin-top: 268px;
+}
+.title_1_6{
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    font-family: 'Gothic A1';
+    margin-bottom: 30px;
+    max-width: 302px;
+}
+.text{
+    font-family: 'Gothic A1';
+    font-size: 16px;
+    line-height: 31px;
+    font-weight: 400;
+    color: rgba(107, 107, 107, 1);
+    max-width: 302px;
+    margin-right: 195px;
+}
+.phone-svj{
+    margin-top: 80px;
+    margin-bottom: 160px;
+}
+.orders{
+    margin-right: 144px;
+    margin-bottom: 160px;
+}
+.title_1_7{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Gothic A1';
+    color: rgba(168, 168, 168, 1);
+   margin-top: 168px;
+    margin-bottom: 25px;
+}
+.title_1_8{
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    font-family: 'Gothic A1';
+    margin-bottom: 27px;
+}
+.text_2{
+    font-family: 'Gothic A1';
+    font-size: 16px;
+    line-height: 31px;
+    font-weight: 400;
+    color: rgba(107, 107, 107, 1);
+    max-width: 302px;
+}
+.title_1_9{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Gothic A1';
+    color: rgba(168, 168, 168, 1);
+    margin-bottom: 30px;
+}
+.magna{
+    margin-left: 210px;
+    margin-bottom: 159px;
+}
+.centre{
+    text-align: center;
+}
+.burger{
+    margin-bottom: 40px;
+    display: inline-block;
+}
+.subtitle{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Gothic A1';
+    margin-bottom: 17px;
+}
+.text_3{
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Gothic A1';
+    color: rgba(107, 107, 107, 1);
+    max-width: 371px;
+    margin-right: 61px;
+    margin-bottom: 163px;
+}
+.numbers{
+    font-family: 'Gothic A1';
+    font-weight: 400;
+    line-height: 90px;
+    font-size: 59px;
+}
+.subtitle_1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Gothic A1';
+    padding-right:  161px;
+    margin-bottom: 170px;
+}
+.title_1_10{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Gothic A1';
+    color: rgba(168, 168, 168, 1);
+    margin-bottom: 30px;
+    margin-top: 17px;
+}
+.burgers{
+    margin-bottom: 167px;
+}
+.cheeps{
+    margin-right: 77px;
+    margin-bottom: 162px;
+}
+.quotes{
+    text-align: center;
+    margin: 0;
+}
+.quotes_1{
+    margin-bottom: 65px;
+}
+.text_4{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    font-family: 'Gothic A1';
+    color: rgba(107, 107, 107, 1);
+    margin-bottom: 17px;
+}
+.title_1_11{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Gothic A1';
+    padding-right: 20px;
+    color: rgba(107, 107, 107, 1);
+}
+.stripe{
+    padding-right: 20px;
+}
