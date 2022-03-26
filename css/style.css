@@ -41,6 +41,8 @@ img{
     max-width: 1200px;
     margin: auto;
     display:flex;
+    position: relative;
+    min-height: 800px;
 }
 .subject{
     font-size: 80px;
@@ -77,8 +79,12 @@ img{
     position: absolute;
 }
 .combine{
-    margin-top: 739px;
-    margin-bottom: 30px;
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
 }
 .container{
     max-width: 1200px;
