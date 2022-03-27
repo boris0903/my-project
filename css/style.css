@@ -119,6 +119,9 @@ img{
     display: flex;
     justify-content: center;
 }
+.food{
+    margin-bottom: 159px;
+}
 .title_1_5{
     font-size: 12px;
     font-weight: 400;
@@ -187,7 +190,6 @@ img{
 }
 .magna{
     margin-left: 210px;
-    margin-bottom: 159px;
 }
 .centre{
     text-align: center;
@@ -211,8 +213,18 @@ img{
     color: rgba(107, 107, 107, 1);
     max-width: 371px;
     margin-right: 61px;
+}
+.icon{
     margin-bottom: 163px;
 }
+.number{
+    margin-bottom: 170px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
 .numbers{
     font-family: 'Gothic A1';
     font-weight: 400;
@@ -224,8 +236,10 @@ img{
     font-size: 18px;
     line-height: 24px;
     font-family: 'Gothic A1';
-    padding-right:  161px;
-    margin-bottom: 170px;
+  
+}
+.ice{
+    margin-bottom: 162px;
 }
 .title_1_10{
     font-size: 12px;
@@ -241,7 +255,9 @@ img{
 }
 .cheeps{
     margin-right: 77px;
-    margin-bottom: 162px;
+}
+.content{
+    margin-bottom: 118px;
 }
 .quotes{
     text-align: center;
@@ -256,7 +272,10 @@ img{
     line-height: 40px;
     font-family: 'Gothic A1';
     color: rgba(107, 107, 107, 1);
-    margin-bottom: 17px;
+    margin: auto;
+    padding-bottom: 17px;
+    text-align: center;
+    max-width: 700px;
 }
 .title_1_11{
     font-weight: 400;
@@ -265,7 +284,38 @@ img{
     font-family: 'Gothic A1';
     padding-right: 20px;
     color: rgba(107, 107, 107, 1);
+    padding-bottom: 88px;
 }
 .stripe{
     padding-right: 20px;
+}
+.img_phones{
+    max-width: 100%;
+}
+.section_background{
+    min-height: 475px;
+}
+.ready{
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    font-family: 'Gothic A1';
+    margin-bottom: 27px;
+    color: white;
+    padding-top: 150px;
+}
+.frame{
+    color: white;
+    size: 16px;
+    line-height: 26px;
+    font-family: 'Gothic A1';
+    font-weight: 400;
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 1px solid #B04BB3;
+    box-sizing: border-box;
+}
+.frame:hover{
+    background: aqua;
+    color: cadetblue;
 }
