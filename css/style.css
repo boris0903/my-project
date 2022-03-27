@@ -162,7 +162,7 @@ img{
     line-height: 20px;
     font-family: 'Gothic A1';
     color: rgba(168, 168, 168, 1);
-   margin-top: 168px;
+    margin-top: 168px;
     margin-bottom: 25px;
 }
 .title_1_8{
@@ -318,4 +318,65 @@ img{
 .frame:hover{
     background: aqua;
     color: cadetblue;
+}
+.background_black{
+    background: #1B1B1B;
+    background-size: cover;
+}
+.updates{
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    font-family: 'Gothic A1';
+    margin-bottom: 27px;
+    color: white;
+    padding-top: 127px;
+    padding-bottom: 20px;
+}
+.updates_2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Gothic A1';
+    color: white;
+    padding-bottom: 40px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.email{
+    padding: 22px 155px 22px 3px;
+    border-radius: 3px 0 0 3px;
+    box-shadow: 0 0 0 #FC0A7E;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Gothic A1';
+    color: rgba(28, 28, 28, 1);
+}
+.button{
+    padding: 22px 29px;
+    background: #FC0A7E;
+    border-radius: 0 3px 3px 0;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Gothic A1';
+}
+button:hover{
+    background: darkgreen;
+    color: #B04BB3;
+}
+.radius{
+    margin-top: 168px;
+    margin-bottom: 29px;
+}
+.link{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(107, 107, 107, 1);
+    text-decoration: none;
+    padding-right: 30px;
+
+
 }
