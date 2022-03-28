@@ -119,6 +119,11 @@ img{
     display: flex;
     justify-content: center;
 }
+.d-flex_2{
+    display: flex;
+    justify-content: center;
+}
+
 .food{
     margin-bottom: 159px;
 }
@@ -224,6 +229,8 @@ img{
     display: flex;
     justify-content: space-between;
 }
+.big{
+}
 
 .numbers{
     font-family: 'Gothic A1';
@@ -287,7 +294,16 @@ img{
     padding-bottom: 88px;
 }
 .stripe{
+    margin-bottom: 30px;
+}
+.title_1_12{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Gothic A1';
+    color: rgba(107, 107, 107, 1);
     padding-right: 20px;
+    padding-left: 20px;
 }
 .img_phones{
     max-width: 100%;
@@ -377,4 +393,7 @@ button:hover{
     color: rgba(107, 107, 107, 1);
     text-decoration: none;
     padding-right: 30px;
+}
+.footer{
+   padding-bottom: 69px;
 }
