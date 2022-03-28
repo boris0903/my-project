@@ -7,6 +7,9 @@ img{
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: 'Gothic A1', sans-serif;
+}
 .section_fon{
     background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
     background-size: cover;
@@ -395,12 +398,14 @@ button:hover{
 .footer{
    padding-bottom: 69px;
 }
+
 .owl-dots{
     margin-top: 88px;
     bottom: 80px;
     width: 100%;
     text-align: center;
 }
+
 .owl-dot span{
     display: inline-block;
     width: 10px;
