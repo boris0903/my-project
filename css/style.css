@@ -363,7 +363,6 @@ img{
 }
 .email{
     padding: 22px 155px 22px 3px;
-    border-radius: 3px 0 0 3px;
     box-shadow: 0 0 0 #FC0A7E;
     font-weight: 400;
     font-size: 16px;
@@ -373,7 +372,6 @@ img{
 .button{
     padding: 22px 29px;
     background: #FC0A7E;
-    border-radius: 0 3px 3px 0;
     font-weight: 400;
     font-size: 16px;
     font-family: 'Gothic A1';
@@ -396,4 +394,28 @@ button:hover{
 }
 .footer{
    padding-bottom: 69px;
+}
+.owl-dots{
+    margin-top: 88px;
+    bottom: 80px;
+    width: 100%;
+    text-align: center;
+}
+.owl-dot span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(34, 34, 34, 0.4);;
+}
+.owl-dot{
+    display: inline-block;
+    margin: 7px;
+}
+.owl-dot.active span{
+    background-color: #222222;
+}
+.owl-dot:hover span{
+    width: 15px;
+    height: 15px;
+    transition: 0.3s;
 }
