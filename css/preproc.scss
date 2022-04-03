@@ -1,0 +1,49 @@
+@import "owl.theme.default.css";
+@import "owl.carousel.css";
+@import "style.css";
+@import "normalize.css";
+@import "media.css";
+$text_color:#ffffff;
+
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+.title_1_4 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Gothic A1';
+  margin-bottom: 22px;
+}
+
+
+.title_1_5{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: 'Gothic A1';
+  color: rgba(168, 168, 168, 1);
+  margin-bottom: 30px;
+  margin-top: 268px;
+  p{
+    margin-bottom: 10px;
+  }
+}
+
+.header_body{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include max-screen(767px){
+
+  }
+}
+

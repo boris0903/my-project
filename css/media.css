@@ -2,14 +2,53 @@
     .phone{
         display: none;
     }
+    .main-nav{
+        display: none;
+    }
+    .cheeps{
+        padding-right: 100px;
+        padding-left: 30px;
+    }
+    .text_3{
+        padding-left: 20px;
+    }
+    .title_1_8{
+        padding-left: 20px;
+    }
+    .title_1_10{
+        padding-left: 20px;
+    }
+    .momentum{
+        margin: auto;
+    }
+    .logo{
+    padding-left: 50px}
+    .nav-but-wrap{
+        display: inline-block;
+        margin: auto;
+    }
+    .header_body{
+       display: none;
+    }
+    .container{
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 767px) {
-    .header_bady{
-        flex-direction: column;
-    }
+
     .d-flex{
         text-align: center;
         display: inline-block;
+    }
+    .subject{
+        text-align: center;
+    }
+    .subject_1{
+        text-align: center;
+    }
+    .btn{
+        display:block;
+        text-align: center;
     }
     .title_1_5{
         margin: auto;
@@ -31,6 +70,7 @@
     }
     .text_2{
         margin: auto;
+        padding-bottom: 15px;
     }
     .magna{
         margin: auto;
@@ -50,6 +90,7 @@
     .text_3{
         padding-bottom: 15px;
         margin: auto;
+        max-width: 500px;
     }
     .text_4{
         padding-left: 20px;
@@ -86,5 +127,20 @@
         font-size: 13px;
         width: 40%;
         margin: auto;
+    }
+    .subject{
+        font-size: 45px;
+    }
+    .subject_1{
+        font-size: 24px;
+    }
+    .magna{
+        padding: 0;
+    }
+    .phone-svj{
+        padding: 0;
+    }
+    .cheeps{
+        padding: 0;
     }
 }

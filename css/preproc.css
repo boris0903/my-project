@@ -1,0 +1,33 @@
+@import url(owl.theme.default.css);
+@import url(owl.carousel.css);
+@import url(style.css);
+@import url(normalize.css);
+@import url(media.css);
+.title_1_4 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  color: white;
+  font-family: 'Gothic A1';
+  margin-bottom: 22px; }
+
+.title_1_5 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: 'Gothic A1';
+  color: #a8a8a8;
+  margin-bottom: 30px;
+  margin-top: 268px; }
+  .title_1_5 p {
+    margin-bottom: 10px; }
+
+.header_body {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+/*# sourceMappingURL=preproc.css.map */
